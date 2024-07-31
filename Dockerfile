@@ -1,3 +1,4 @@
+# syntax=docker/dockerfile:1.4
 ### FRONT BUILD START ###
 FROM --platform=$BUILDPLATFORM node:16-alpine as front
 COPY ./web /app
