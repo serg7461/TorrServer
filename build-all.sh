@@ -98,10 +98,11 @@ declare -a COMPILERS=(
   "amd64:x86_64-linux-android21-clang"
 )
 
-export NDK_VERSION="25.2.9519653" # 25.1.8937393
+export NDK_VERSION="26.3.11579264"
 #export NDK_TOOLCHAIN=${ANDROID_HOME}/ndk/${NDK_VERSION}/toolchains/llvm/prebuilt/darwin-x86_64
 #export NDK_TOOLCHAIN="${PWD}/../android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64"
-export NDK_TOOLCHAIN=/Users/yourok/Projects/AndroidNDK
+#export NDK_TOOLCHAIN=/Users/yourok/Projects/AndroidNDK
+export NDK_TOOLCHAIN="/Users/serg7461/NDK/toolchains/llvm/prebuilt/darwin-x86_64"
 GOOS=android
 
 for V in "${COMPILERS[@]}"; do
